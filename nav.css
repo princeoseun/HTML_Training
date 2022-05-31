@@ -1,0 +1,118 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.429;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 125%; 
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    color: black;
+    bottom: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: .8em;
+    text-align: center;
+    font-weight: 900;
+}
+
+a{outline: 0;}
+a img {border: 0px; text-decoration: none;}
+
+a:link, a:visited {
+    color: rgb(60, 255, 0);
+    padding: 0 1px;
+    text-decoration: underline;
+}
+a:hover, a:active {
+    background-color: rgb(50, 205, 192);
+    color: pink
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(255, 0, 251);
+}
+
+p {
+    margin-left: 25px;
+    font-size: 115%;
+}
+
+strong, b {
+    font-weight: bold;
+    em, i font-style: italic;}
+
+nav {
+    background-color: rgba(128, 128, 128, 0.84);
+    height: 40px;
+}
+nav ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+nav li ul {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 7px 15px 3px 15px;
+    background-color: gainsboro;
+    color: rgb(205, 255, 253);
+    margin-left: 40px;
+    white-space: nowrap;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+}
+
+nav a:link, a:visited {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: blueviolet;
+}
+
+nav li:hover ul {
+    display: block;
+    position: absolute;
+    height: 30px;
+}
+
+nav li:hover li {
+    float: none;
+    font-size: 11px;
+}
+
+nav li:hover a {
+    background-color: rgb(220, 242, 255);
+    height: 30px;
+}
+
+nav li a:hover {
+    text-align: left;
+}
+
+

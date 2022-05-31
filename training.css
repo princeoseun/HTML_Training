@@ -1,0 +1,20 @@
+body {background-color: darkmagenta;
+
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: x-large; 
+    border: 10px groove; 
+    color: blue; text-align: center;
+    text-transform: capitalize;
+    margin: 50px;
+    padding: 50px;
+    background-color: pink;
+}
+p {
+    color: blue; 
+    border: 10px groove;
+    margin: 50px;
+    padding: 20px;
+    background-color: pink;
+}
